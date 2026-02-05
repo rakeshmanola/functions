@@ -1,0 +1,7 @@
+pandas
+pyarrow
+requests
+psycopg2-binary
+google-cloud-storage
+google-cloud-bigquery
+google-cloud-secret-manager

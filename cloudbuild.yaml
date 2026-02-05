@@ -1,0 +1,10 @@
+steps:
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk 
+    entrypoint: bash
+    args:
+      - -c
+      - |
+        chmod +x csv_to_parquet.bash
+        bash csv_to_parquet.bash
+options:
+  logging: CLOUD_LOGGING_ONLY
